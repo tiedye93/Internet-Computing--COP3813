@@ -1,0 +1,142 @@
+html,
+body {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    background: #6e9acf;
+    opacity: .90;
+    position: fixed;
+    width: 100%;
+    border-radius: 100px;
+    
+}
+
+
+h1 {
+    color: black;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+   text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+
+.main {
+    padding: 85px 10px 0;
+    width: 100%;
+}
+
+.list p {
+    background: #fff;
+    opacity: .85;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 auto 5px;
+    padding: 12px;
+    max-width: 520px;
+     text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+}
+
+.results p {
+    background: #fff;
+    opacity: .85;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 auto 5px;
+    padding: 12px;
+    max-width: 520px;
+     text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+}
+.list p .glyphicon-star {
+    cursor: pointer;
+    margin: 0 8px 0 12px;
+}
+
+
+.list p .glyphicon-remove {
+    cursor: pointer;
+    float: right;
+}
+
+.list p .glyphicon-remove:hover {
+    color: #ed1c24;
+}
+
+.list p .glyphicon-unchecked:hover {
+    color: #0038b8;
+}
+
+.list p .strike {
+    text-decoration: line-through;
+}
+
+form.form-class {
+    color: #473e39;
+    height: 60px;
+    margin: 0 auto 30px;
+    max-width: 375px;
+}
+
+.form-container {
+    max-width: 375px;
+}
+
+.form-class input {
+    background: #fff;
+    opacity: .8;
+    border-radius: 5px;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 5px 0 0;
+    padding: 0 18px;
+    width: 310px;
+}
+
+.form-class input:focus {
+    background: #FFFAF0;
+    opacity: .9;
+}
+
+.form-class .btn {
+    background: #41BABA;
+    border-radius: 5px;
+    opacity: .95;
+    line-height: 20px;
+    
+}
+
+.form-class button:hover {
+    cursor: pointer;
+    background: #BFA77F;
+    opacity: 95;
+}
+
+.list form {
+    display: inline;
+}
+
+label{
+    color: black;
+}
+
+.results{
+    float: inherit;
+    
+}
+
+li{ 
+    border-radius: 5px;
+}
+
+p{
+/*
+    color:#6e9acf;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+*/
+    float: left;
+}
